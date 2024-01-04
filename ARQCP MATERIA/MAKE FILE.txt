@@ -1,0 +1,54 @@
+# A Makefile with variables and suffix rules
+# variaveis
+INCLUDES = populate.h check.h inc_nsets.h
+SOURCES = ex18.c populate.c check.c inc_nsets.c
+OBJFILES = ex18.o populate.o check.o inc_nsets.o
+EXEC = ex18
+
+# Suffix rules
+.SUFFIXES : .c .o
+
+# How to build an object .o from a code file .c ; $< -- file name
+.c.o:
+	gcc -Wall -g -c $<
+
+${EXEC}: ${OBJFILES}
+	gcc -Wall -g -o ${EXEC} ${OBJFILES}
+
+${OBJFILES}: ${SOURCES} ${INCLUDES}
+
+run: ${EXEC}
+	./${EXEC}
+
+clean:
+	rm -f ${OBJFILES} ${EXEC}
+
+===============================================================
+
+# A Makefile with variables and suffix rules
+# variaveis
+INCLUDES = asm.h
+SOURCES = main.c asm.s
+OBJFILES = main.o asm.o
+EXEC = ex01
+
+# Suffix rules
+.SUFFIXES : .c .o .s
+
+# How to build an object .o from a code file .c ; $< -- file name
+.c.o:
+	gcc -Wall -g -c $<
+
+${EXEC}: ${OBJFILES}
+	gcc −g −Wall −Wextra −fanalyzer −c ${EXEC} ${OBJFILES}
+
+${OBJFILES}: ${SOURCES} ${INCLUDES}
+
+run: ${EXEC}
+	./${EXEC}
+
+clean:
+	rm -f ${OBJFILES} ${EXEC}
+
+debug: ${EXEC}
+	gdb -tui ${EXEC}

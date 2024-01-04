@@ -1,0 +1,34 @@
+.section .data
+asm_integer : 		# variable declaration
+.int 5
+.global asm_integer 	# define variable as global
+.section .text
+.global asm_function 	# define function as global
+asm_function : 		# start of the function
+...
+movl $0 , %eax 		# reaching here , will return 0
+			# (rax will not be changed until ret )
+
+=========================================================
+
+movl op1 (% rip ), % ecx # copy the value of op1 to ecx
+movl op2 (% rip ), % eax # copy the value of op2 to eax
+
+=========================================================
+
+section .data
+op1 : 				# declare op1 , op2
+.int 0
+op2 :
+.short 0
+.global op1 , op2 		# define op1 , op2 as globals
+.section .text
+.global sum_op1_op2 		# define global function long sum_op1_op2 ( void )
+sum_op1_op2 :
+movl op1 (% rip ), % ecx 	# place op1 in ecx
+movslq %ecx , %rcx 		# sign extend to quad word
+movw op2 (% rip ), %ax 		# place op2 in rax
+movswq %ax , % rax 		# sign extend to quad word
+addq %rcx , % rax 		# add rcx to rax , result is in rax
+				# and will be our return value
+ret 				# return to the caller function

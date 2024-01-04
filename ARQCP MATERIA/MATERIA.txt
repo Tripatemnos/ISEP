@@ -1,0 +1,31 @@
+em assembly mete se a função invertido ou seja se a função for if(x<2) em assembly coloca se jge .L2 sendo L2 a função ao escrever jge .L2 caso a afirmação seja falsa é executada a proxima linha caso contrario vai diretamente para L2
+
+RAX são ferramentas de returno
+
+O jump equivale a um if em C 
+no entanto a condição está na linha anterior
+
+nas funcões loop usa se o RCX
+
+os apontadores sao variveis que guardam endereços 
+
+cada endereço tem 8 bytes de size
+
+movB quando se escreve arrays de 1 byte cada elemento
+
+.comm o ficheiro é declarado globalmente
+ 
+.lcomm o ficheiro é declarado no local
+
+depois de uma string ha "/0" oculto 
+
+o nome do array faz parte do primeiro conjunto de bytes 
+
+(%RDI)  --> isto representa um endereço
+
+rcx --> usa se em instruções loop 
+
+
+
+
+

@@ -1,0 +1,40 @@
+GIT 
+
+APP ARQCP: ATBBgypRbfZaPmR6rBM9jUENXqG7426B2030
+git clone https://vascofm@bitbucket.org/luciamagaia/arqcp23242dlg03.git
+
+cd /media/sf_PARTILHA/arqcp23242dlg03/moduloN/exNN
+git add -A
+git commit –a –m “Mensagem informativa”
+git pull
+git push
+
+==================================================================
+
+Use the "%p"formatting specifier to print addresses in hexadecimal. You should
+see addresses that look something like this: "0xbfe55918"
+
+==================================================================
+COMO COMEÇAR A PROGRAMAR EM C
+
+#include <stdio.h>
+
+int main(){
+		printf("hello world");
+		return 0;
+}
+
+==================================================================
+
+int 	(4 bytes) 	| %d fro printing
+double 	(8bytes) 	| %lf for printing
+float 	(4 bytes) 	| %f for printing
+char 	(1byte) 	| %c for printing
+
+==================================================================
+
+POINTER
+é uma ferramenta que consegue modificar uma variavel sem mexer diretamente nela, basicamente é convertido aquilo que foi atribuido ao pointer
+
+==================================================================
+

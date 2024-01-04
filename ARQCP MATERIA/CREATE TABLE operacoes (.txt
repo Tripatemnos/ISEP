@@ -1,0 +1,11 @@
+CREATE TABLE operacoes (
+    ID INT,
+    Location VARCHAR(255),
+    OperationType VARCHAR(255),
+    OperationSubType VARCHAR(255),
+    CropType VARCHAR(255),
+    OperationDate DATE,
+    Quantity DECIMAL(10, 2),
+    Unit VARCHAR(10),
+    OtherDetails VARCHAR(255)
+);
