@@ -1,0 +1,73 @@
+Revisões secundário:
+        http://www.vestibulandia.com.br/
+
+Sites para confirmarem resoluções: 
+
+        https://www.symbolab.com/solver/derivative-calculator
+
+       https://www.symbolab.com/solver/integral-calculator
+
+       https://www.derivative-calculator.net/
+       https://www.integral-calculator.com/
+Outros apontamentos online
+Aula sobre derivadas de 1ª ordem - iniciação
+
+http://www.youtube.com/watch?v=y1fYhdwK9bA
+
+https://www.youtube.com/watch?v=f8RyNOKteA
+
+Derivadas função implícita
+
+https://www.youtube.com/watch?v=JE4XGKnybB8
+
+https://www.youtube.com/watch?v=F6pEs3AyTuk
+
+Integrais imediatos
+
+Abaixo podem encontrar uns apontamentos da UNL e umas aulas do youtube
+
+https://www.youtube.com/playlist?list=PLjkt-E4854meKa6Z7wRXv1uIX2N5d_IZF
+
+https://www.youtube.com/watch?v=sYJVQkZl9yE
+
+Integração por partes:
+
+https://www.youtube.com/watch?v=oLvF5hL_0bU&list=PLnan3skoqcB3flAfTm8m7ppqNzvRE1e78&index=3
+
+https://www.youtube.com/watch?v=Bkyb08oxK80&list=PLnan3skoqcB3flAfTm8m7ppqNzvRE1e78&index=4
+
+https://www.youtube.com/watch?v=C24AJY0zXPA&list=PLnan3skoqcB3flAfTm8m7ppqNzvRE1e78&index=5
+
+Integração por substituição
+
+https://www.youtube.com/watch?v=PqJuIoQtZyc
+
+https://www.youtube.com/watch?v=kmHsDoZ0M3A
+
+Exercícios resolvidos integrais indefinidos
+
+http://factosfera.blogspot.com/2016/07/exercicios-resolvidos-de-antiderivada.html
+
+Teoria área delimitada entre duas curvas
+
+https://www.youtube.com/watch?v=5aqo0NSrCu0
+
+https://www.youtube.com/watch?v=gBKfLMopr8g
+
+https://www.youtube.com/watch?v=0ivYaPFKlho
+
+Séries de potências raio e intervalo de convergência (Só parte da matéria)
+
+https://www.youtube.com/watch?v=iBDVNee4_Sk
+
+https://www.youtube.com/watch?v=jkC7MZWNSXA
+
+https://www.youtube.com/watch?v=dgFdBKOprxY
+
+https://www.youtube.com/watch?v=OffB0VXP87k
+
+Polinómio e Série de Taylor e MacLaurin
+
+https://www.youtube.com/watch?v=oL-TByNvaCg
+
+https://www.youtube.com/watch?v=SkwQIg5oIKw
